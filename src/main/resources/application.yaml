@@ -9,8 +9,16 @@ management:
       enabled: true
     health:
       show-details: always
+    loggers:
+      enabled: true
   endpoints:
     web:
       exposure:
         include: "*"
+
+logging:
+  level:
+    ROOT: INFO
+    ru.alxdv.monitoring: INFO
+    org.springframework: INFO
 
