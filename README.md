@@ -2,7 +2,7 @@
 <h1>Project for testing monitoring with spring boot actuator, prometheus and grafana</h1>
 
 <h2>Running:</h2>
-Run with <i>docker-compose -f docker-compose.dev.yaml up --build</i> from base directory
+Run with <i>docker-compose -f docker-compose.dev.yaml up --build</i> from root directory
 
 <h2>Endpoints:</h2>
 <ol>
